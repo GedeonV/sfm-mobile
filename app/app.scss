@@ -1,0 +1,65 @@
+@import "~@nativescript/theme/core";
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+// Font icon class
+
+$blue: #677bc4;
+$blue-bis: #6477b7;
+$beige-lighter: #eff0eb;
+$grey-dark: #2f3136;
+$grey-light: #36393f;
+$grey-lighter: #40444b;
+
+$primary: $blue;
+$link: $blue-bis;
+
+.fab {
+  font-family: "Font Awesome 5 Brands", "fa-brands-400";
+  font-weight: 400;
+}
+
+.fas {
+  font-family: "Font Awesome 5 Free", "fa-solid-900";
+  font-weight: 900;
+}
+
+.far {
+  font-family: "Font Awesome 5 Free", "fa-regular-400";
+  font-weight: 400;
+}
+
+ActionBar {
+  background-color: $primary;
+}
+
+.-primary {
+  background-color: $primary;
+  color: $beige-lighter;
+}
+
+.input {
+  background-color: $grey-lighter;
+  border-radius: 4;
+  padding: 10;
+  border-color: transparent;
+  color: $beige-lighter;
+}
+
+.text-error {
+  font-size: 20;
+  text-align: center;
+  color: #f14668;
+  font-weight: bold;
+}
+
+.header {
+  color: $primary;
+  font-size: 25pt;
+  margin-bottom: 1em;
+  font-weight: 600;
+  text-align: center;
+}
+
+button {
+  width: 50%;
+}

@@ -1,0 +1,43 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.Test",
+    "tns-android": {
+      "version": "6.5.0"
+    },
+    "tns-ios": {
+      "version": "6.5.0"
+    }
+  },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "@nativescript/theme": "~2.3.0",
+    "@nstudio/nativescript-pulltorefresh": "^3.0.0",
+    "axios": "^0.20.0",
+    "nativescript-barcodescanner": "^3.4.2",
+    "nativescript-camera": "^4.5.0",
+    "nativescript-fonticon": "^2.0.2",
+    "nativescript-localstorage": "^2.0.1",
+    "nativescript-multi-select": "^1.0.6",
+    "nativescript-ui-listview": "^9.0.2",
+    "nativescript-vue": "~2.4.0",
+    "nativescript-vuex-persistent": "^1.2.0",
+    "nativescript-windowed-modal": "^6.2.1",
+    "tns-core-modules": "~6.5.0",
+    "vuex": "^3.5.1",
+    "vuex-persist": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.1.0",
+    "@babel/preset-env": "~7.1.0",
+    "babel-loader": "~8.0.0",
+    "nativescript-dev-webpack": "~1.5.0",
+    "nativescript-vue-template-compiler": "~2.4.0",
+    "node-sass": "^4.7.1",
+    "sass-loader": "^10.0.2",
+    "vue-loader": "~15.4.0"
+  },
+  "gitHead": "20a65d338ae8f8911087ab6615b89363f864b07b",
+  "readme": "NativeScript Application"
+}
