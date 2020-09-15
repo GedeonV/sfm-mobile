@@ -29,9 +29,14 @@
       </TabStrip>
 
       <TabContentItem>
-        <GridLayout>
-          <Label text="Accueil" />
-        </GridLayout>
+        <FlexboxLayout class="page">
+          <StackLayout class="content">
+            <Label text="Bienvenue sur SingForMe" />
+            <Label text="Cette application vous permettra de vous inscrire" />
+            <Label text="à tout les évènements de karaoké organisés " />
+            <Label text="à l'aide du service SingForMe" />
+          </StackLayout>
+        </FlexboxLayout>
       </TabContentItem>
       <TabContentItem>
         <ListView @itemTap="goToEvent" class="list-group" for="item in events">
