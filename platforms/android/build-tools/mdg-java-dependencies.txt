@@ -45,4 +45,3 @@ F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\andr
 F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\build\exploded-dependencies\eff8c5f96bafe7fa124f6b5b1dc0caee\classes.jar
 F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\build\exploded-dependencies\f3e17c10a0281a0870016986b618d519\classes.jar
 F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\build\exploded-dependencies\f77017d9d8e2af448043cce3fcb95355\classes.jar
-F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\build\intermediates\javac\debug
