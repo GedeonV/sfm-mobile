@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\SingForMe\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\sfm-mobile\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Arthur\\.gradle\\caches\\transforms-2\\files-2.1\\eeb5da7c8c0996fbc1c9cdf4633c58bb\\core-1.0.1\\res\\values-v21\\values-v21.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\SingForMe\\platforms\\android\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\sfm-mobile\\platforms\\android\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "10,4,23,14,19",
                         "startColumns": "4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\SingForMe\\platforms\\android\\app\\src\\main\\res\\values-v21\\colors.xml",
+                    "source": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\sfm-mobile\\platforms\\android\\app\\src\\main\\res\\values-v21\\colors.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "1",

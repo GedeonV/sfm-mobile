@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\SingForMe\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "F:\\Documents Arthur\\Documents\\SingForMe - ZINNI Arthur\\sfm-mobile\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Arthur\\.gradle\\caches\\transforms-2\\files-2.1\\48b229e147a4dca9b4b961003e452a83\\appcompat-1.0.2\\res\\values-en-rAU\\values-en-rAU.xml",

@@ -2,11 +2,7 @@
   <Page @loaded="loaded">
     <ActionBar>
       <Label :text="event.event_name" />
-      <NavigationButton
-        text="Go back"
-        android.systemIcon="ic_menu_back"
-        @tap="goToPanel"
-      />
+      <NavigationButton text="Go back" android.systemIcon="ic_menu_back" @tap="goToPanel" />
     </ActionBar>
     <FlexboxLayout class="page">
       <StackLayout class="form">
@@ -64,13 +60,13 @@ export default {
       isChecked: true,
       dateFR: "",
       date: "",
-      selectedItem: ""
+      selectedItem: "",
     };
   },
   methods: {
     openModal() {
       this.$showModal(EventModal, { props: { songs: this.songs } }).then(
-        res => {
+        (res) => {
           this.songsChoose = res;
           console.log(this.songsChoose);
         }
@@ -78,7 +74,7 @@ export default {
     },
 
     goToPanel() {
-      this.$navigateTo(Panel).catch(error => console.log(error));
+      this.$navigateTo(Panel).catch((error) => console.log(error));
     },
 
     isSignUp() {
@@ -103,28 +99,29 @@ export default {
             "/sign",
           {
             userId: this.$store.state.user.user_id,
-            songId: this.songsChoose
+            songId: this.songsChoose,
+            order: this.users_list.length + 1,
           },
           {
             headers: {
-              Authorization: "Bearer " + this.$store.state.user_token
-            }
+              Authorization: "Bearer " + this.$store.state.user_token,
+            },
           }
         )
-        .then(response => {
+        .then((response) => {
           console.log(response.data);
           this.error = "";
           dialogs
             .alert({
               title: "Informations",
               message: "Inscriptions effectué",
-              okButtonText: "Ok"
+              okButtonText: "Ok",
             })
-            .then(e => {
+            .then((e) => {
               this.loadEvent();
             });
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     },
@@ -136,19 +133,19 @@ export default {
             this._id +
             "/unsub_user",
           {
-            userId: this.$store.state.user.user_id
+            userId: this.$store.state.user.user_id,
           },
           {
             headers: {
-              Authorization: "Bearer " + this.$store.state.user_token
-            }
+              Authorization: "Bearer " + this.$store.state.user_token,
+            },
           }
         )
-        .then(response => {
+        .then((response) => {
           console.log(response.data);
           this.loadEvent();
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     },
@@ -157,10 +154,10 @@ export default {
       axios
         .get("https://sfm-project.herokuapp.com/parties/event/" + this._id, {
           headers: {
-            Authorization: "Bearer " + this.$store.state.user_token
-          }
+            Authorization: "Bearer " + this.$store.state.user_token,
+          },
         })
-        .then(response => {
+        .then((response) => {
           console.log("Evenement :" + response.data.event);
           this.event = response.data.event;
           this.date = response.data.event.date;
@@ -172,7 +169,7 @@ export default {
           this.isSignUp();
           this.getDate();
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
         });
     },
@@ -184,18 +181,18 @@ export default {
         weekday: "long",
         year: "numeric",
         month: "long",
-        day: "numeric"
+        day: "numeric",
       };
       let dateFR = d.toLocaleDateString("fr-FR", options);
       this.dateFR = dateFR;
-    }
+    },
   },
   computed: {},
 
   mounted() {
     console.log("ID Event: " + this._id);
     this.loadEvent();
-  }
+  },
 };
 </script>
 

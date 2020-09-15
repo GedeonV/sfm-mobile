@@ -1,4 +1,4 @@
-F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\SingForMe\platforms\android\app\src\main\assets\app\bundle.js
-F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\SingForMe\platforms\android\app\src\main\assets\app\runtime.js
-F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\SingForMe\platforms\android\app\src\main\assets\app\tns-java-classes.js
-F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\SingForMe\platforms\android\app\src\main\assets\app\vendor.js
+F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\src\main\assets\app\bundle.js
+F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\src\main\assets\app\runtime.js
+F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\src\main\assets\app\tns-java-classes.js
+F:\Documents Arthur\Documents\SingForMe - ZINNI Arthur\sfm-mobile\platforms\android\app\src\main\assets\app\vendor.js

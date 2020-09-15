@@ -139,9 +139,6 @@ view_1.ContainerView*vendor***WebViewBase*_onLoadFinished,_onLoadStarted,,,loadS
 android.webkit.WebViewClient*vendor*46927*26*WebViewClientImpl*shouldOverrideUrlLoading,onPageStarted,onPageFinished,onReceivedError***
 web_view_common_1.WebViewBase*vendor***WebView*createNativeView,initNativeView,disposeNativeView,_loadUrl,_loadData,stopLoading,goBack,goForward,reload***
 android.content.BroadcastReceiver*vendor*67953*54**onReceive***
-stack_layout_1.StackLayout*vendor*83395*24*ModalStack*onLoaded,outsideTap***
-android.app.Dialog*vendor*83624*28*CustomDialogImpl*onDetachedFromWindow,onBackPressed***
-androidx.fragment.app.DialogFragment*vendor*83664*28*CustomDialogFragmentImpl*onCreateDialog,onCreateView,onStart,onDismiss,onDestroy***
 android.view.ViewTreeObserver.OnGlobalLayoutListener*vendor*650*37**onGlobalLayout***
 android.app.Application.ActivityLifecycleCallbacks*vendor*663*28**onActivityCreated,onActivityDestroyed,onActivityPaused,onActivityResumed,onActivitySaveInstanceState,onActivityStarted,onActivityStopped***
 android.content.ComponentCallbacks2*vendor*744*28**onLowMemory,onTrimMemory,onConfigurationChanged***
